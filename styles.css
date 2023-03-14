@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Over+the+Rainbow&family=Poppins:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+
+
+body {
+  text-align: center;
+  background-color: #1c7baa;
+  font-family: 'Roboto mono';
+}
+
+.logo-image {
+  width: 120px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #deeef4;
+
+}
+
+footer {
+  color: #DBEDF3;
+}
+
+.w {
+  background-image: url('images/crash.png');
+}
+
+.a {
+  background-image: url('images/kick.png');
+}
+
+.s {
+  background-image: url('images/snare.png');
+}
+
+.d {
+  background-image: url('images/tom1.png');
+}
+
+.j {
+  background-image: url('images/tom2.png');
+}
+
+.k {
+  background-image: url('images/tom3.png');
+}
+
+.l {
+  background-image: url('images/tom4.png');
+}
+
+.set {
+  margin: 10% auto;
+}
+
+
+
+
+
+.drum {
+  outline: none;
+  border: 6px solid #372a39;
+  font-size: 5rem;
+  font-family: 'Poppins';
+  line-height: 2;
+  font-weight: 900;
+  color: #357fa9;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.drum:hover {
+  opacity: 0.8;
+  color: rgb(222, 94, 94);
+  cursor: pointer;
+  transition: all 0.35s;
+    border: 6px solid #372a39;
+}
+
+.pressed {
+  color: rgb(222, 94, 94);
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.white-letter {
+  color: white;
+}
+
+.icons {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.icons div a {
+  color: white;
+  text-decoration: none;  
+  margin: 6rem;
+  font-size: 2rem;
+}
+
+.icons div a:hover {
+  color: rgb(94, 166, 171);
+  transition: all 0.5s;
+}
+
+
+
